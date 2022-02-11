@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="assets/css/main1.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <h1>Basic Calculator</h1>
+    <div class="container">
+        <div class="card">
+            <div class="row">
+                <form>
+                    <input type="text" placeholder="Insert your 1st value" id="Inserted_value">
+                    <input type="text" id="Result">
+                </form>
+            </div>
+            <div class="row g-1">
+                <div class="col">
+                    <button type="button" id="num1" onclick="ins('1')">1</button>
+                </div>
+                <div class="col">
+                    <button type="button" id="num2" onclick="ins('2')">2</button>
+                </div>
+                <div class="col">
+                    <button type="button" id="num3" onclick="ins('3')">3</button>
+                </div>
+                <div class="col">
+                    <button type="button" id="opperator_*" onclick="ins('*')">*</button>
+                </div> 
+            </div>
+            <div class="row g-1">
+                <div class="col">
+                    <button type="button" id="num4" onclick="ins('4')">4</button>
+                </div>
+                <div class="col">
+                    <button type="button" id="num5" onclick="ins('5')">5</button>
+                </div>
+                <div class="col">
+                    <button type="button" id="num6" onclick="ins('6')">6</button>
+                </div>
+                <div class="col">
+                    <button type="button" id="opperator_/" onclick="ins('/')">/</button>
+                </div>
+            </div>
+            <div class="row g-1">
+                <div class="col">
+                    <button type="button" id="num7" onclick="ins('7')">7</button>
+                </div>
+                <div class="col">
+                    <button type="button" id="num8" onclick="ins('8')">8</button>
+                </div>
+                <div class="col">
+                    <button type="button" id="num9" onclick="ins('9')">9</button>
+                </div>
+                <div class="col">
+                    <button type="button" id="opperator_-" onclick="ins('-')">-</button>
+                </div>
+            </div>
+            <div class="row g-1">
+                <div class="col">
+                    <button type="button" id="dot" onclick="ins('.')">.</button>
+                </div>
+                <div class="col">
+                    <button type="button" id="num0" onclick="ins('0')">0</button>
+                </div>
+                <div class="col">
+                    <button type="button" onclick="result()">=</button>
+                </div>
+                <div class="col">
+                    <button type="button" id="opperator_+" onclick="ins('+')">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="assets/js/1.js"></script>
+</body>
+</html>
